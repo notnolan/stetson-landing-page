@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#stetson-logo {
+    padding: 10px;
+    position: relative;
+    left: 20px;
+}
+
+.topnav {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    position: relative;
+    left: 1300px;
+    bottom: 40px;
+}
+
+#features-tab {
+    position: relative;
+    right: 450px;
+    bottom: 5px;
+}
+
+#hat-types {
+    position: relative;
+    right: 200px;
+    bottom: 24px;
+}
+
+#history-tab {
+    position: relative;
+    right: 0px;
+    bottom: 42px;
+}
+
+#big-text {
+    color: rgb(212, 136, 35);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+#welcome-text {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    left: 200px;
+    top: 30px;
+
+}
+
+#big-text2 {
+    color: rgb(212, 136, 35);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+#lil-text {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    position: relative;
+    left: 3px;
+
+    animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+#main-image {
+    position: relative;
+    left: 800px;
+    bottom: 550px;
+}
