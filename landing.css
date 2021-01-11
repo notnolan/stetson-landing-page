@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 #stetson-logo {
     padding: 10px;
     position: relative;
@@ -15,22 +19,29 @@
     bottom: 40px;
 }
 
+.navlink {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
 #features-tab {
     position: relative;
-    right: 450px;
-    bottom: 5px;
+    right: 400px;
+    bottom: 16px;
 }
 
 #hat-types {
     position: relative;
     right: 200px;
-    bottom: 24px;
+    bottom: 54px;
 }
 
 #history-tab {
     position: relative;
     right: 0px;
-    bottom: 42px;
+    bottom: 94px;
 }
 
 #big-text {
@@ -90,7 +101,7 @@
     cursor: pointer;
     border-radius: 12px;
     position: absolute;
-    bottom: 240px;
+    bottom: 160px;
     left: 260px;
     margin-top: -50px;
     margin-left: -50px;
@@ -131,14 +142,150 @@ p {
     font-size: 18px;
 }
 
+#hat-head {
+    width: 100%;
+    position: absolute;
+    top: 550px;
+    left: 175px;
+}
+
 .hat-types {
     width: 100%;
 }
 
-.hat-tag {
+#hat-tag {
     color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 25px;
     text-align: center;
+}
+
+#hat-link{
+    position: absolute;
+    left: 175px;
+    top: 550px;
+}
+
+#westernimg {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    left: 375px;
+    top: 700px;
+}
+
+#westernimg img {
+    width: 320px;
+    height: 270px;
+    margin: -30px 0 0 5px;
+}
+
+#outdoorimg {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    left: 775px;
+    top: 700px;
+}
+
+#outdoorimg img {
+    width: 320px;
+    height: 270px;
+    margin: -30px 0 0 5px;
+}
+
+#fedoraimg {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+    left: 1175px;
+    top: 700px;
+}
+
+#fedoraimg img {
+    width: 320px;
+    height: 270px;
+    margin: -30px 0 0 5px;
+}
+
+.hatlbl {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#westernlbl {
+    position: absolute;
+    top: 950px;
+    left: 470px;
+}
+
+#outdoorlbl {
+    position: absolute;
+    top: 950px;
+    left: 870px;
+}
+
+#fedoralbl {
+    position: absolute;
+    top: 950px;
+    left: 1285px;
+}
+
+#history {
+    position: absolute;
+    top: 1600px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: -10px;
+}
+
+#storylbl {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#footer {
+    position: absolute;
+    top: 1900px;
+    width: 100%;
+}
+
+.botnav {
+    text-align: right;
+}
+
+#copyright {
+    text-align: right;
+}
+
+#hatimg {
+    height: 600px;
+    width: 670px;
+    position: absolute;
+    left: 750px;
+    bottom: 25px;
+}
+
+#horseimg {
+    height: 450px;
+    width: 350px;
+    position: absolute;
+    left: 100px;
+    top: 625px;
+}
+
+#mountainimg {
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    left: 400px;
+    top: 645px;
 }
