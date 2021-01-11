@@ -10,17 +10,31 @@
 
 <body>
     <div id="stetson-logo">
+        <a href="#stetson-logo">
         <img src="images\stetson-logo.png" alt="Stetson Logo">
+        </a>
     </div>
     <div class="topnav"> <!--This is the website nav bar-->
         <div id="features-tab">
-        <a href="#home">Features</a>
+        <a href="#features" class="navlink">
+            <h4>
+                Features
+            </h4>
+        </a>
         </div>
         <div id="hat-types">
-        <a href="#news">Hat Types</a>
+        <a href="#hat-link" class="navlink">
+            <h4>
+                Hat Types
+            </h4>
+        </a>
         </div>
         <div id="history-tab">
-        <a href="#contact">History</a>
+        <a href="#history" class="navlink">
+            <h4>
+                History
+            </h4>
+        </a>
         </div>
     </div>
     <div id="welcome-text"> <!--This is the greeting large message at top-->
@@ -74,28 +88,41 @@
                 Hat Types
             </h3>
         </div>
+        <div id="hat-link"></div>
         <div id="western-hats">
-            <img src="images\western-hat.JPG" alt="Western Hat">
-            <h4>
+            <div id="westernimg">
+                <a href="https://stetson.com/collections/hats-western">
+                    <img src="images\western-hat.JPG" alt="Western Hat">
+                </a>
+            </div>
+            <h4 class="hatlbl" id="westernlbl">
                 Western Hats
             </h4>
         </div>
         <div id="outdoor-hats">
-            <img src="images\outdoor-hat.JPG" alt="Outdoor Hat">
-            <h4>
+            <a href="https://stetson.com/collections/hats-outdoor">
+                <div id="outdoorimg">
+                    <img src="images\outdoor-hat.JPG" alt="Outdoor Hat">
+                </div>
+            </a>
+            <h4 class="hatlbl" id="outdoorlbl">
                 Outdoor Hats
             </h4>
         </div>
         <div id="fedora-hats">
-            <img src="images\fedora-hat.JPG" alt="Fedora Hat">
-            <h4>
+            <a href="https://stetson.com/collections/hats-fedora">
+                <div id="fedoraimg">
+                    <img src="images\fedora-hat.JPG" alt="Fedora Hat">
+                </div>
+            </a>
+            <h4 class="hatlbl" id="fedoralbl">
                 Fedora Hats
             </h4>
         </div>
     </div>
     <div id="history"> <!--This is the history section-->
         <div id="our-story">
-            <h3>
+            <h3 id="storylbl">
                 Our Story
             </h3>
             <p id="story-text">
@@ -117,5 +144,8 @@
             </p>
         </div>
     </div>
+    <img src="images/horse.JPG" id="horseimg">
+    <img src="images/mountain.JPG" id="mountainimg">
+    <img src="images/mainhat.JPG" id="hatimg">
 </body>
 </html>
